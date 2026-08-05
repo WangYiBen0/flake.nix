@@ -1,10 +1,10 @@
 {
   "dae": {
     "release": {
-      "version": "v1.0.0",
-      "rev": "v1.0.0",
-      "hash": "sha256-RpbWZEoGrCq3Py0hu6YDie6ErDTLS3oabqScPzhCtm0=",
-      "vendorHash": "sha256-u2DCHmX7vRNWIQ2Ir3UrxPGduggEqoUr1rnkDfwsT0I="
+      "version": "v2.0.0",
+      "rev": "v2.0.0",
+      "hash": "sha256-hzX3b86BHvxXQZotSteiHoyBMF/P4WubeuJ6xpxa8ac=",
+      "vendorHash": "sha256-S2dNFvMeZqGhzu+sIBGeaET4bQXfeucao6XR4QSTpog="
     },
     "unstable": {
       "version": "unstable-2026-07-31.caa6f5e",
@@ -18,8 +18,8 @@
       "version": "v1.24.0",
       "rev": "v1.24.0",
       "hash": "sha256-vi31roanIqyTDMRjHG54nxx944gicrs03fh4pLEyOS8=",
-      "pnpmDepsHash": "sha256-9KfaLlAo//prhA26SQIbEnsk5b7h8+N3V5syickLTWM=",
-      "vendorHash": "sha256-l7jgMvrbpOY2+cvnc0e5cvSgKVm4GcWC+bPbff+PE80="
+      "pnpmDepsHash": "sha256-kroHlKU3GofBuoMpkokGTyGpQvzSJOQOdrvvgR0VEA8=",
+      "vendorHash": "sha256-b8fNqIrnfT5X3Pp4obbvryiwPX5sEYfWNO7G9ojW4TI="
     }
   }
 }
