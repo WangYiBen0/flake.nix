@@ -41,6 +41,16 @@ let
       pnpmConfigHook
     ];
 
+    prePatch = ''
+      # pnpm 11's `pmOnFail` defaults to `download`: when running `pnpm run`,
+      # pnpm re-spawns itself using the pnpm version declared in the root
+      # `packageManager` field (pnpm@10.24.0), fetched from the registry via
+      # a hardcoded bootstrap registry. The sandbox has no network, so tell it
+      # to keep the nixpkgs-provided pnpm instead. (the old
+      # `manage-package-manager-versions` key is ignored by pnpm 11)
+      sed -i '1i pmOnFail: ignore' pnpm-workspace.yaml
+    '';
+
     buildPhase = ''
       runHook preBuild
       pnpm build
